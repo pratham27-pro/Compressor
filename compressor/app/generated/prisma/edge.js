@@ -134,7 +134,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "C:\\Users\\DELL\\Desktop\\SAAS\\compressor\\app\\generated\\prisma",
+      "value": "/Users/ankur/Desktop/Compressor/compressor/app/generated/prisma",
       "fromEnvVar": null
     },
     "config": {
@@ -143,17 +143,16 @@ const config = {
     "binaryTargets": [
       {
         "fromEnvVar": null,
-        "value": "windows",
+        "value": "darwin",
         "native": true
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "C:\\Users\\DELL\\Desktop\\SAAS\\compressor\\prisma\\schema.prisma",
+    "sourceFilePath": "/Users/ankur/Desktop/Compressor/compressor/prisma/schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
-    "rootEnvPath": null,
-    "schemaEnvPath": "../../../.env"
+    "rootEnvPath": null
   },
   "relativePath": "../../../prisma",
   "clientVersion": "6.7.0",
@@ -162,11 +161,12 @@ const config = {
     "db"
   ],
   "activeProvider": "postgresql",
+  "postinstall": true,
   "inlineDatasources": {
     "db": {
       "url": {
         "fromEnvVar": "DATABASE_URL",
-        "value": "postgresql://neondb_owner:npg_WnPRBbZ4Qx9E@ep-raspy-leaf-a10b941b-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require"
+        "value": null
       }
     }
   },
